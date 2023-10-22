@@ -1,0 +1,12 @@
+{
+    "extends": "../../../tsconfig-base",
+    "compilerOptions": {
+        "declaration": true
+    },
+    "include": [
+        "*",
+        "**/*",
+        "../../../libs",
+        "../../../libs/egret.d.ts"
+    ]
+}

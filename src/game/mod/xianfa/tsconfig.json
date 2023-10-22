@@ -1,0 +1,14 @@
+{
+    "extends": "../../../../tsconfig-base",
+    "include": [
+        "*",
+        "**/*",
+        "../../../../libs",
+        "../../../../libs/game/base.d.ts",
+        "../../../../libs/game/launcher.d.ts",
+        "../../../../libs/game/entry.d.ts",
+        "../../../../libs/game/login.d.ts",
+        "../../../../libs/game/scene.d.ts",
+        "../../../../libs/game/mod_common.d.ts"
+    ]
+}

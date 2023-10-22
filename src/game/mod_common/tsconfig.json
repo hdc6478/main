@@ -1,0 +1,14 @@
+{
+    "extends": "../../../tsconfig-base",
+    "compilerOptions": {
+        "declaration": true
+    },
+    "include": [
+        "*",
+        "**/*",
+        "../../../libs"
+    ],
+    "exclude": [
+        "../../../libs/game/mod_common.d.ts"
+    ]
+}

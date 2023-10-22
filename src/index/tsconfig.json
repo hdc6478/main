@@ -1,0 +1,33 @@
+{
+    "extends": "../../tsconfig-base",
+    "compilerOptions": {
+        "emitReflection": false,
+        "reorderFiles": false,
+        "sourceMap": false,
+        "declaration": false,
+        "outFile": "../../dist/index.js",
+        "lib": [
+            "es5",
+            "dom"
+        ]
+    },
+    "include": [
+        "../../libs",
+        "../../dist/game/base.d.ts",
+        "../../dist/game/launcher.d.ts",
+        "../../dist/game/entry.d.ts"
+    ],
+    "files": [
+        "Index.ts",
+        "RunEgretOptions.ts",
+        "Logger.ts",
+        "GameShareObject.ts",
+        "GameGlobalObject.ts",
+        "WebAudio.ts",
+        "sdk-web/test.ts",
+        "sdk-web/yiyou.ts",
+        "sdk-web/outer_net.ts",
+        "sdk-web/initSdk.ts",
+        "sdk-web/shiguangSDK.ts"
+    ]
+}

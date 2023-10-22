@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "strictFunctionTypes": true,
+        "noFallthroughCasesInSwitch": true,
+        "skipLibCheck": true,
+        "stripInternal": true,
+        "newLine": "LF",
+        "lib": [
+            "es6"
+        ]
+    }
+}
